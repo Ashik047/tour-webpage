@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ashik Biju">
+    <meta name="description"
+        content="Discover unforgettable journeys with our expert tour guides. From cultural landmarks to hidden gems, we offer personalized travel experiences tailored to your interests and comfort.">
+    <title>Drift & Dream &hyphen; Tour Guide &amp; Travel Agency</title>
+    <!-- linking google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <!-- linking css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- linking font awesome -->
+    <script src="https://kit.fontawesome.com/47b5fa122b.js" crossorigin="anonymous"></script>
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <!-- linking animate style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header__navbar">
+        <!-- logo -->
+        <img class="navbar__logo" src="images/logo.png" alt="drift and dream">
+        <!-- menu icon -->
+        <input type="checkbox" id="navbar__checkbox" class="nav__checkbox">
+        <label for="navbar__checkbox" class="navbar__menu">
+            <i class="fa-solid fa-bars navbar__menu-icon"></i>
+            <i class="fa-solid fa-xmark navbar__x-icon"></i>
+        </label>
+        <!-- navbar -->
+        <nav aria-label="navigation" class="navbar__links">
+            <a href="#home" class="navbar__link text--center">Home</a>
+            <a href="#tours" class="navbar__link text--center">Tours</a>
+            <a href="#activity" class="navbar__link text--center">Activity</a>
+            <a href="#gallery" class="navbar__link text--center">Gallery</a>
+            <a href="#review" class="navbar__link text--center">Reviews</a>
+            <a href="#contact" class="navbar__link text--center">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <!-- intro page -->
+        <section class="intro-section intro" id="home">
+            <div class="intro__h2">
+                <h2 class="intro__name nowrap animate__animated animate__zoomInDown">Drift &amp; Dream</h2>
+            </div>
+            <!-- for background images -->
+            <div class="intro__bg1 intro_bg">
+                <p class="intro__p1 text--center">Adventure isn&apos;t about the destination, it&apos;s about the
+                    stories
+                    you collect along the way and the courage you find in the unknown</p>
+            </div>
+            <div class="intro__bg2 intro_bg">
+                <p class="intro__p1 text--center">The world is full of beautiful paths waiting to be explored—sometimes,
+                    the
+                    best journey is the one you never planned</p>
+            </div>
+            <div class="intro__bg3 intro_bg">
+                <p class="intro__p1 text--center">Step outside your comfort zone—because beyond the edge of fear lies a
+                    world full of breathtaking moments</p>
+            </div>
+            <div class="intro__bg4 intro_bg">
+                <p class="intro__p1 text--center">Travel not to escape life, but so life doesn&apos;t escape you—fill
+                    your
+                    days with mountains, oceans, and memories</p>
+            </div>
+            <div class="intro__book text--center"><a href="" class="intro__book-link nowrap">Book Your Trip</a></div>
+            <!-- social media -->
+            <div class="contact__media">
+                <a href="" class="contact__media-icons"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="" class="contact__media-icons"><i class="fa-brands fa-twitter"></i></a>
+                <a href="" class="contact__media-icons"><i class="fa-brands fa-instagram"></i></a>
+                <a href="" class="contact__media-icons"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </section>
+        <!-- tours section -->
+        <section class="main-section tour" id="tours">
+            <p class="section__description text--center">Your next story begins here</p>
+            <h2 class="section__heading text--center nowrap">Pick and Pack</h2>
+            <p class="section__description text--center">From mountain highs to ocean tides, we&apos;ll take you where
+                adventure lives</p>
+            <div class="tour__outer">
+                <div class="tour__inner">
+                    <!-- each destination -->
+                    <div class="tour__content">
+                        <img src="images/tour/newzealand.jpg" alt="New Zealand" class="tour__img">
+                        <div class="tour__country">
+                            <h3 class="nowrap">Thrilling New Zealand</h3>
+                        </div>
+                        <span class="tour__cost nowrap">&dollar;650</span>
+                        <p class="tour__des text--center">Land of extreme sports, glaciers, and untouched nature.
+                            <br><br>
+                            <span>6 Days</span>
+                        </p>
+                    </div>
+                    <div class="tour__content">
+                        <img src="images/tour/nepal.jpg" alt="Nepal" class="tour__img">
+                        <div class="tour__country">
+                            <h3 class="nowrap">Spiritual Nepal</h3>
+                        </div>
+                        <span class="tour__cost nowrap">&dollar;450</span>
+                        <p class="tour__des text--center">Home to the Himalayas, temples, and soul-searching treks.
+                            <br><br>
+                            <span>4 Days</span>
+                        </p>
+                    </div>
+                    <div class="tour__content">
+                        <img src="images/tour/africa.jpg" alt="South Africa" class="tour__img">
+                        <div class="tour__country">
+                            <h3 class="nowrap">Wild South Africa</h3>
+                        </div>
+                        <span class="tour__cost nowrap">&dollar;500</span>
+                        <p class="tour__des text--center">Safaris, oceans, mountains — all raw and untamed. <br><br>
+                            <span>5 Days</span>
+                        </p>
+                        <!--  Author: Ashik Biju | Project: Drift & Dream | Year: 2025  -->
+                    </div>
+                    <div class="tour__content">
+                        <img src="images/tour/chile.jpg" alt="Chile" class="tour__img">
+                        <div class="tour__country">
+                            <h3 class="nowrap">Dramatic Chile</h3>
+                        </div>
+                        <span class="tour__cost nowrap">&dollar;480</span>
+                        <p class="tour__des text--center">From the driest desert to icy Patagonia — full of
+                            contrasts.<br><br>
+                            <span>4 Days</span>
+                        </p>
+                    </div>
+                    <div class="tour__content">
+                        <img src="images/tour/canada.jpg" alt="Canada" class="tour__img">
+                        <div class="tour__country">
+                            <h3 class="nowrap">Majestic Canada</h3>
+                        </div>
+                        <span class="tour__cost nowrap">&dollar;750</span>
+                        <p class="tour__des text--center">Grand forests, towering peaks, and adventure in every
+                            corner.<br><br>
+                            <span>5 Days</span>
+                        </p>
+                    </div>
+                    <div class="tour__content">
+                        <img src="images/tour/costa.jpg" alt="Costa Rica" class="tour__img">
+                        <div class="tour__country">
+                            <h3 class="nowrap">Costa Rica</h3>
+                        </div>
+                        <span class="tour__cost nowrap">&dollar;520</span>
+                        <p class="tour__des text--center">Rainforests, volcanoes, and tropical thrills. <br><br>
+                            <span>4 Days</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- activities -->
+        <section class="main-section activities" id="activity">
+            <p class="section__description text--center">We Take You There &hyphen; Where the Adventure Lives</p>
+            <h2 class="section__heading text--center nowrap">Adrenaline Rush</h2>
+            <p class="section__description text--center">Live the Thrill &hyphen; Guided Adventure Activities for Every
+                Wanderer</p>
+            <div class="tour__outer">
+                <div class="tour__inner">
+                    <!-- each activity -->
+                    <div class="tour__content">
+                        <img src="images/activities/trekk.jpg" alt="Trekking" class="tour__img">
+                        <div class="tour__country">
+                            <h3 class="nowrap">Trekking</h3>
+                        </div>
+                    </div>
+                    <div class="tour__content">
+                        <img src="images/activities/surf.jpg" alt="Surfing" class="tour__img">
+                        <div class="tour__country">
+                            <h3 class="nowrap">Surfing</h3>
+                        </div>
+                    </div>
+                    <div class="tour__content">
+                        <img src="images/activities/skii.jpg" alt="Skiing" class="tour__img">
+                        <div class="tour__country">
+                            <h3 class="nowrap">Skiing</h3>
+                        </div>
+                    </div>
+                    <div class="tour__content">
+                        <img src="images/activities/scuba.jpg" alt="Scuba Diving" class="tour__img">
+                        <div class="tour__country">
+                            <h3 class="nowrap">Scuba Diving</h3>
+                        </div>
+                    </div>
+                    <div class="tour__content">
+                        <img src="images/activities/rock.jpg" alt="Rock Climbing" class="tour__img">
+                        <div class="tour__country">
+                            <h3 class="nowrap">Rock Climbing</h3>
+                        </div>
+                    </div>
+                    <div class="tour__content">
+                        <img src="images/activities/atv.jpg" alt="ATV Biking" class="tour__img">
+                        <div class="tour__country">
+                            <h3 class="nowrap">ATV Riding</h3>
+                        </div>
+                    </div>
+                    <div class="tour__content">
+                        <img src="images/activities/para.jpg" alt="paragliding" class="tour__img">
+                        <div class="tour__country">
+                            <h3 class="nowrap">Paragliding</h3>
+                        </div>
+                    </div>
+                    <div class="tour__content">
+                        <img src="images/activities/bunjee.jpg" alt="Bungee jumping" class="tour__img">
+                        <div class="tour__country">
+                            <h3 class="nowrap">Bungee Jumping</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- gallery -->
+        <section class="main-section photos" id="gallery">
+            <p class="section__description text--center">The World Looks Better When Seen Through the Eyes of a Wanderer
+            </p>
+            <h2 class="section__heading text--center nowrap">Captured Thrills</h2>
+            <p class="section__description text--center">Where Every Snapshot Captures a Moment of Pure Adventure</p>
+            <!-- radio buttons -->
+            <input type="radio" id="all" name="gall__btn" class="gallery__btn gallery__btn1">
+            <label for="all" class="gallery__button gallery__button1 text--center">All</label>
+            <input type="radio" id="land" name="gall__btn" class="gallery__btn gallery__btn2">
+            <label for="land" class="gallery__button gallery__button2 text--center">Land</label>
+            <input type="radio" id="water" name="gall__btn" class="gallery__btn gallery__btn3">
+            <label for="water" class="gallery__button gallery__button3 text--center">Water</label>
+            <input type="radio" id="sky" name="gall__btn" class="gallery__btn gallery__btn4">
+            <label for="sky" class="gallery__button gallery__button4 text--center">Sky</label>
+            <div class="tour__outer gallery__outer">
+                <div class="tour__inner gallery__inner">
+                    <!-- each photos -->
+                    <div class="tour__content gallery__content gallery__content1 water">
+                        <img src="images/gallery/surf.jpg" alt="surfing" class="tour__img gallery__img gallery__img1">
+                    </div>
+                    <div class="tour__content gallery__content gallery__content2 land">
+                        <img src="images/gallery/trek.jpg" alt="trekking" class="tour__img gallery__img gallery__img2">
+                    </div>
+                    <div class="tour__content gallery__content gallery__content3 water">
+                        <img src="images/gallery/diving.jpg" alt="scuba diving"
+                            class="tour__img gallery__img gallery__img3">
+                    </div>
+                    <div class="tour__content gallery__content gallery__content4 land">
+                        <img src="images/gallery/atv.jpg" alt="atv riding" class="tour__img gallery__img gallery__img4">
+                    </div>
+                    <div class="tour__content gallery__content gallery__content5 land">
+                        <img src="images/gallery/rock.jpg" alt="rock climbing"
+                            class="tour__img gallery__img gallery__img5">
+                    </div>
+                    <div class="tour__content gallery__content gallery__content6 sky">
+                        <img src="images/gallery/para.jpg" alt="paragliding"
+                            class="tour__img gallery__img gallery__img6">
+                    </div>
+                    <div class="tour__content gallery__content gallery__content7 land">
+                        <img src="images/gallery/skii.jpg" alt="skiing" class="tour__img gallery__img gallery__img7">
+                    </div>
+                    <div class="tour__content gallery__content gallery__content8 sky">
+                        <img src="images/gallery/bunjee.jpg" alt="bunjee jumping"
+                            class="tour__img gallery__img gallery__img8">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- reviews -->
+        <section class="main-section reviews" id="review">
+            <p class="section__description text--center">Hear from those who dared to explore with us</p>
+            <h2 class="section__heading text--center nowrap">Traveler Tales</h2>
+            <p class="section__description text--center">Our adventures become unforgettable because of voices like
+                theirs
+            </p>
+            <div class="review__outer">
+                <!-- each review -->
+                <div class="review__inner review__inner1">
+                    <div class="review__img"><img src="images/review/ryan.jpg" alt="review-photo"></div>
+                    <div class="review__content">
+                        <p class="nowrap"><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                                class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star"
+                                style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                                class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i></p>
+                        <p>
+                            &quot;Exploring the mountains together was magical — every trail brought us closer. Thanks
+                            to Drift & Dream, our anniversary turned into an unforgettable adventure!&quot;
+                        </p>
+                        <h3>Ryan &amp; Rachel, London</h3>
+                    </div>
+                </div>
+                <div class="review__inner review__inner2">
+                    <div class="review__img"><img src="images/review/dylan.jpg" alt="review-photo"></div>
+                    <div class="review__content">
+                        <p class="nowrap"><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                                class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star"
+                                style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                                class="fa-solid fa-star" style="color: #FFD43B;"></i></p>
+                        <p>
+                            &quot;From start to finish, everything was perfectly organized. Our kids had the time of
+                            their
+                            lives, and we felt safe and taken care of throughout the journey. Truly a family trip
+                            we&apos;ll
+                            never forget!&quot;
+                        </p>
+                        <h3>Joeyy &amp; Helen, New York</h3>
+                    </div>
+                </div>
+                <div class="review__inner review__inner3">
+                    <div class="review__img"><img src="images/review/mariana.jpg" alt="review-photo"></div>
+                    <div class="review__content">
+                        <p class="nowrap"><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                                class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star"
+                                style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                                class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i></p>
+                        <p>
+                            &quot;Our first trip as a couple couldn’t have been more perfect. The seamless planning,
+                            beautiful locations, and thrilling activities made it truly special. We’ll be back!&quot;
+                        </p>
+                        <h3>Ramos &amp; Isabella, Mandrid</h3>
+                    </div>
+                </div>
+                <div class="review__inner review__inner4">
+                    <div class="review__img"><img src="images/review/unervi-gonzalez.jpg" alt="review-photo"></div>
+                    <div class="review__content">
+                        <p class="nowrap"><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                                class="fa-solid fa-star" style="color: #FFD43B;"></i><i class="fa-solid fa-star"
+                                style="color: #FFD43B;"></i><i class="fa-solid fa-star" style="color: #FFD43B;"></i><i
+                                class="fa-solid fa-star" style="color: #FFD43B;"></i></p>
+                        <p>
+                            &quot;From sunrise hikes to starlit beach walks, this trip was everything we dreamed of.
+                            Drift & Dream gave us not just a destination, but a memory we’ll cherish for life.&quot;
+                        </p>
+                        <h3>Alan &amp; Aleena, Canada</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section class="main-section contacts" id="contact">
+            <p class="section__description text--center">Got questions&quest; We&apos;ve got your map to adventure</p>
+            <h2 class="section__heading text--center nowrap">Talk Travel</h2>
+            <p class="section__description text--center">The first step to every great story is a conversation. Let's
+                begin
+                yours</p>
+            <!-- map -->
+            <div class="contact__map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62861.99714987216!2d76.23218554863281!3d10.027187300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080dafbed183bf%3A0x5951f316ba13a37e!2sLuLu%20International%20Shopping%20Mall!5e0!3m2!1sen!2sin!4v1749375244236!5m2!1sen!2sin"
+                    width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- content -->
+                <div class="contact__info">
+                    <h3 class="nowrap text--center">Come and visit us</h3>
+                    <br>
+                    <p class="text--justify">Visit our agency or simply send us an email anytime you want. If you have
+                        any
+                        questions, please feel free to contact us.</p> <br>
+                    <p><a href="tel:+919747991662" class="contact__icons"><i
+                                class="fa-solid fa-phone"></i></a>&nbsp;9747991662</p><br>
+                    <p>
+                        <a href="mailto:ashikbiu2000@gmail.com" class="contact__icons"><i
+                                class="fa-solid fa-envelope"></i></a>&nbsp;ashikbiju2000@gmail.com
+                    </p><br>
+                    <p class="contact__icons nowrap"><i class="fa-solid fa-location-dot"></i>
+                        34/1000, Old NH 47, Edappally <br></p>
+                    <p class="nowrap">
+                        &nbsp;&nbsp;&nbsp;&nbsp;Junction, Nethaji Nagar,
+                    </p>
+                    <p class="nowrap">
+                        &nbsp;&nbsp;&nbsp;&nbsp;Edappally, Kerala 682024
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer__content text--center">
+            <p>&copy; 2025 Drift &amp; Dream &bull; Designed &amp; Built with HTML &amp; CSS</p>
+        </div>
+    </footer>
+</body>
+
+</html>
